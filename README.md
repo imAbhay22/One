@@ -2,17 +2,17 @@
 
 this is a git repo i made for practice
 i can paste anything i want here cause its my practice repo
-
+<br>
 I wonder if this will really work or not oh it really worked basically I was wondering about the commandlet 30 plus when we need to use our PC as a mic I wanted to write by speaking instead of using keyboard so the command that we need to use to write by speaking is ( windows + H ), this command is definitely going to be a really handy command so I better remember this command and if I by any chance if I forget it then I'm sure that I can find it in my git repo, whether i'm currently trying to track the interview for TCS inquity so using the mic instead of typing might help me improve my communication skills.
 
-
-if i write, git clone ( and paste the repo link we get when we click on the "code button" and press enter then my git repo will be cloned in my local pc ) example of repo link : https://github.com/im-Abhay22/Git.git
+<br>
+if i write, git clone ( and paste the repo link we get when we click on the "code button" and press enter then my git repo will be cloned in my local pc ) example of repo link : https://github.com/im-Abhay22/Git.git<br>
 i think the commands i am pasting here should be obvious and i should already know them but incase i forget, these are the terminal commands which will come in handy : cd : change directry (folder) cd .. : to get one level out of a directory dir : list files dir /a : list all files ( even hidden files ) mkdir : it is basically used to make a new directory ( folder ) but since we are using git we need to use init ( because if we won't then git won't be able to access this folder because there won't be any .get file ( it is a hidden file that gets created when we use git init command ) we can also make an already available folder that we created with mkdir or by directly click on the folder by simply adding (git init) inside of the directory
-
+<br>
 git status : it is used to check the status of code, whether the file on the git and github is same or not ( to check whether i have made any changes to the file or not ) whenever we make any kind of changes in our code if we haven't committed to git hub then it's just going to show us in ( git status and on the file name ) that we haven't committed yet and to resolve it we need to commit and to do that we need to do a 2 step process which includes adding and committing to git hub. And if we have added some new files then we need to commit it otherwise it will show it as untracked which basically means that GitHub currently don't know about that file, so basically there are four types of status the get status command shows : 1st is the modified which means that the file is changed the second is unmodified which means the file is unchanged 3rd is the untracked which means the file is untraceable by GitHub and the last one is staged which basically means that we have added it but not yet committed we can say it is similar to being engaged but not married it's a midway process because uploading something to GitHub is a two way process the first is adding and second thing is committing when we have added then it will show staged and when we have committed then it will show committed.
-
+<br>
 To use the add command you can use it like git add file_name use the commit command we can use it like git commit -m " here we need to add some message it can be anything " it is crucial to add a message along with the get commit command otherwise it will show something that I am currently not able to understand and I don't really care about it so I will just add a little bit of message along with the get commit command git push : to upload files from local to github git pull : to fetch the files from GitHub to local pc get add . : you can use this to Add all the files that currently haven't added at once
-
+<br>
 Init
-
+<br>
 git init : it is used to create a new repo on our local pc using git bash git remote add origin : to use a remote repo git remote -v : to verify remote git branch : to verify branch git branch -M main : to rename branch git push origin main : to push on a repo git push -u origin main : if we are going to work on the same repo for a while
